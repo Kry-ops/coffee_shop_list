@@ -42,7 +42,7 @@ class KopiKenanganPage extends StatelessWidget {
             Stack(
               children: [
                 Image.asset(
-                  'assets/logo_kopi_kenangan.png',
+                  'assets/logo/logo_kopi_kenangan.png',
                   width: double.infinity,
                   height: 260,
                   fit: BoxFit.contain,

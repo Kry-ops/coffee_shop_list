@@ -36,6 +36,7 @@ dependencies:
   cupertino_icons: ^1.0.8
 
 dev_dependencies:
+  flutter_launcher_icons: ^0.14.4
   flutter_test:
     sdk: flutter
 
@@ -59,6 +60,9 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
+    # logo aplikasi
+    - assets/logo_aplikasi/logo_dummy.png
+    # list logo
     - assets/logo/logo_kopi_kenangan.png
     - assets/logo/logo_tomoro_coffee.png
     - assets/logo/logo_fore.png
@@ -96,7 +100,9 @@ flutter:
     - assets/arah_coffee_assets/arah_coffee_foto_2.jpg
     - assets/arah_coffee_assets/arah_coffee_foto_3.jpg
 
-
+flutter_launcher_icons:
+  android: true
+  image_path: "assets/logo_aplikasi/logo_dummy.png"
 
 
 
